@@ -22,11 +22,13 @@
                 </tree-view>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6"> 
-            <label>{{ labelSelected }}</label> 
-            <button type="button" class="btn btn-default btn-xs" ng-click="deSelectAll()"> {{buttonDeselectAll}} </button>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="title badge-info">
+                <label>{{ labelSelected }}</label> 
+                <button type="button" class="btn btn-default btn-xs" ng-click="deSelectAll()"> {{buttonDeselectAll}} </button>
+            </div>
             <div class="search-wrap">
-                <input class="form-control input-sm" ng-model="searchRight">
+                <input class="form-control input-sm" ng-model="searchRight" placeholder="&#xF002;" style="font-family:Arial, FontAwesome">
             </div>
             <div class="pool">
                 <ul>
