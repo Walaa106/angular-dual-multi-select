@@ -6,7 +6,7 @@
                 <button type="button" class="btn btn-default btn-xs" ng-click="selectAll()"> {{buttonCheckAll}} </button>
             </div>
             <div class="search-wrap">
-                <input class="form-control input-sm" ng-model="searchLeft">
+                <input class="form-control input-sm" ng-model="searchLeft" placeholder='&#xF002;' style="font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit;">
             </div>
             <div class="pool">
                 <tree-view
