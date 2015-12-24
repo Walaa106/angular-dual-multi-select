@@ -97,7 +97,7 @@ angular.module('DualMultiSelect', ['TreeView'])
             };
 
             $scope.compareName = function (actual, expected) {
-                return $scope.getDisplayName(actual).toString().indexOf(expected) !== -1;
+                return $scope.getDisplayName(actual).toString().toLowerCase().indexOf(expected.toLowerCase()) !== -1;
             };
 
             $scope.getDisplayName = function (item) {

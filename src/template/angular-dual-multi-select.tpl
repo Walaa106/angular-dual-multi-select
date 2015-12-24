@@ -1,8 +1,10 @@
-<div class="dualmultiselect"> 
-    <div class="row"> 
-        <div class="col-lg-6 col-md-6 col-sm-6"> 
-            <label>{{ labelAll }}</label> 
-            <button type="button" class="btn btn-default btn-xs" ng-click="selectAll()"> {{buttonCheckAll}} </button> 
+<div class="dualmultiselect">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="title badge-info">
+                <label>{{ labelAll }}</label>
+                <button type="button" class="btn btn-default btn-xs" ng-click="selectAll()"> {{buttonCheckAll}} </button>
+            </div>
             <div class="search-wrap">
                 <input class="form-control input-sm" ng-model="searchLeft">
             </div>
