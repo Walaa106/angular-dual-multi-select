@@ -6,7 +6,7 @@
                 <button type="button" class="btn btn-default btn-xs" ng-click="selectAll()"> {{buttonCheckAll}} </button>
             </div>
             <div class="search-wrap">
-                <input class="form-control input-sm" ng-model="searchLeft" placeholder="&#xF002;" style="font-family:Arial, FontAwesome">
+                <input class="form-control input-sm" ng-model="searchLeft" placeholder="&#xF002;">
             </div>
             <div class="pool">
                 <tree-view
@@ -28,7 +28,7 @@
                 <button type="button" class="btn btn-default btn-xs" ng-click="deSelectAll()"> {{buttonDeselectAll}} </button>
             </div>
             <div class="search-wrap">
-                <input class="form-control input-sm" ng-model="searchRight" placeholder="&#xF002;" style="font-family:Arial, FontAwesome">
+                <input class="form-control input-sm" ng-model="searchRight" placeholder="&#xF002;">
             </div>
             <div class="pool">
                 <ul>
